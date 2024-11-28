@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "project1"
+version = "0.1.0"
+description = ""
+authors = ["lucas <lacerdaodl2@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+gdown = "^5.2.0"
+duckdb = "^1.1.3"
+streamlit = "^1.40.2"
+python-dotenv = "^1.0.1"
+sqlalchemy = "^2.0.36"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
